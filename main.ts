@@ -1,0 +1,20 @@
+radio.onReceivedNumber(function (receivedNumber) {
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.motors(100, 12)
+    basic.pause(800)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.motors(16, 100)
+    basic.pause(800)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.stopcar()
+})
+basic.showIcon(IconNames.Heart)
+radio.setGroup(1)
+basic.forever(function () {
+	
+})
